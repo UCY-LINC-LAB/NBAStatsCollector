@@ -12,15 +12,15 @@ If this path does not exists, the system will parse the endpoints once and gener
 
 ###Commands
 
-| Command                 | Description                                                                   |
-|-------------------------|-------------------------------------------------------------------------------|
-| -analyze_endpoint <arg> | Analyze the requirements of the given endpoint.                               |
-| -endpoint <arg>         | The NBAStats endpoint you want to collect.                                    |
-| -help                   | Print all the possible commands.                                              |
-| -output <arg>           | Path to the generated .tsv results file. Current directory as a default path. |
-| -parameters <arg>       | Path to the .json file containing the parameters for the search.              |
-| -show_endpoints         | Show all the possible endpoints.                                              |
-| -show_parameters        | Show all the possible parameters and their values.                            |
+| Command                     | Description                                                                   |
+|-----------------------------|-------------------------------------------------------------------------------|
+| -analyze_endpoint \<arg\>   | Analyze the requirements of the given endpoint.                               |
+| -endpoint \<arg\>           | The NBAStats endpoint you want to collect.                                    |
+| -help                       | Print all the possible commands.                                              |
+| -output \<arg\>             | Path to the generated .tsv results file. Current directory as a default path. |
+| -parameters \<arg\>         | Path to the .json file containing the parameters for the search.              |
+| -show_endpoints             | Show all the possible endpoints.                                              |
+| -show_parameters            | Show all the possible parameters and their values.                            |
 
 ###Parameters
 The parameter .json file contains the key-value pairs of the query parameters. For example if i want to collect the commonplayerinfo of Joe Smith the file is the following:
