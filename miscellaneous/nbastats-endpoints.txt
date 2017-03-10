@@ -1,0 +1,75 @@
+NBA Stats Endpoints at http://stats.nba.com/stats/
+===========================================
+Parameters:
+ -	AheadBehind: ['Ahead or Behind', 'Behind or Tied', 'Ahead or Tied']
+ -	ClutchTime: ['Last 5 Minutes', 'Last 4 Minutes', 'Last 3 Minutes', 'Last 2 Minutes', 'Last 1 Minute', 'Last 30 Seconds', 'Last 10 Seconds']
+ -	DateFrom: YYYY-MM-DD
+ -	DateTo: YYYY-MM-DD
+ -	DefenseCategory: ['Overall', '3 Pointers', '2 Pointers', 'Less Than 6Ft', 'Less Than 10Ft', 'Greater Than 15Ft']
+ -	DistanceRange: ['5ft Range', '8ft Range', 'By Zone']
+ -	EastPlayer1: Number
+ -	EastPlayer2: Number
+ -	EastPlayer3: Number
+ -	EastPlayer4: Number
+ -	EastPlayer5: Number
+ -	EndPeriod: Number
+ -	GameID: Number
+ -	GameScope: ['Season', 'Last 10', 'Yesterday', 'Finals']
+ -	GameSegment: ['First Half', 'Overtime', 'Second Half']
+ -	GraphEndSeason: YYYY-YY
+ -	GraphStartSeason: YYYY-YY
+ -	IsOnlyCurrentSeason: [0 or 1]
+ -	LastNGames: Number 
+ -	LeagueID: [00, 20]
+ -	Location: ['Home', 'Road']
+ -	MeasureType: ['Base', 'Advanced', 'Misc', 'Four Factors', 'Scoring', 'Opponent', 'Usage']
+ -	Month: [0 to 12]
+ -	OpponentTeamID: Number
+ -	Outcome: ['W', 'L']
+ -	PaceAdjust: ['Y', 'N']
+ -	Period: [0 to 14]
+ -	PerMode: [PerGame, Totals, Per36]
+ -	PlayerExperience: ['Rookie', 'Sophomore', 'Veteran']
+ -	PlayerID: Number
+ -	PlayerID1: Number
+ -	PlayerID2: Number
+ -	PlayerID3: Number
+ -	PlayerID4: Number
+ -	PlayerID5: Number
+ -	PlayerIDList: Number, Number, ..., Number
+ -	PlayerOrTeam: ['Player', 'Team']
+ -	PlayerPosition: ['F', 'C', 'G', 'C-F', 'F-C', 'F-G', 'G-F']
+ -	PlayerTeamID: Number
+ -	PlayerScope: ['All Players', 'Rookies']
+ -	PlusMinus: ['Y', 'N']
+ -	PointCap: Number
+ -	PointDiff: Number
+ -	PORound: Number
+ -	Rank: ['Y', 'N']
+ -	RookieYear: YYYY-YY
+ -	Season: YYYY-YY
+ -	SeasonID: Number
+ -	SeasonSegment: ['Post All-Star', 'Pre All-Star']
+ -	SeasonType: ['Regular Season', 'Pre Season', 'Playoffs']
+ -	SeasonYear: YYYY-YY
+ -	ShotClockRange: ['24-22', '22-18 Very Early', '18-15 Early', '15-7 Average', '7-4 Late', '4-0 Very Late', 'ShotClock Off']
+ -	StarterBench: ['Starters', 'Bench']
+ -	StartPeriod: Number
+ -	StatCategory: ['Points', 'Rebounds', 'Assists', 'Defense', 'Clutch', 'Playmaking', 'Efficiency', 'Fast Break', 'Scoring Breakdown']
+ -	StatType: ['Traditional', 'Advanced', 'Tracking']
+ -	TeamID: Number
+ -	VsConference: ['East', 'West']
+ -	VsDivision: ['Atlantic', 'Central', 'Northwest', 'Pacific', 'Southeast', 'Southwest', 'East', 'West']
+ -	VsPlayerID: Number
+ -	VsPlayerID1: Number
+ -	VsPlayerID2: Number
+ -	VsPlayerID3: Number
+ -	VsPlayerID4: Number
+ -	VsPlayerID5: Number
+ -	VsPlayerIDList: Number, Number, ..., Number
+ -	VsTeamID: Number
+ -	WestPlayer1: Number
+ -	WestPlayer2: Number
+ -	WestPlayer3: Number
+ -	WestPlayer4: Number
+ -	WestPlayer5: Number
